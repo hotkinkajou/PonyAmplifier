@@ -39,7 +39,7 @@ function init() {
             if (item.components) {
                 for (const comp of item.components) {
                     if (!comp.layer) comp.layer = item.layer;
-                    if (!comp.color) comp.color = item.color;
+                    if (!comp.color && comp.color !== null) comp.color = item.color;
                 }
             }
         }
@@ -123,7 +123,7 @@ export const assets =
                         {
                             "url": "assets/fang.png",
                             "layer": "accessory-top",
-                            "color": "none"
+                            "color": null
                         }
                     ]
             }
@@ -233,7 +233,27 @@ export const assets =
                             "color": "mane2"
                         },
                     ]
-            }
+            },
+            "bonbon": {
+                "displayName": "Bonbon",
+                "type": "composite",
+                "components":
+                    [
+                        {
+                            "url": "assets/mane/hair-back-bonbon.png",
+                            "layer": "mane-back",
+                            "color": "mane2"
+                        },
+                        {
+                            "url": "assets/mane/hair-side-bonbon.png",
+                            "layer": "mane-side",
+                        },
+                        {
+                            "url": "assets/mane/hair-top-bonbon.png",
+                            "layer": "mane-top",
+                        },
+                    ]
+            },
         }
     },
     "accessories": {

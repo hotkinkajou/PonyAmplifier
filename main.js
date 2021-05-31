@@ -7,10 +7,11 @@ var inputs = {};
 var pickers = {};
 var colorValues = {};
 var updatingHash = false;
+var ignoreUpdates = false;
+var renderTimeout = -1;
 
 async function asyncMain() {
     generateInputs();
-    colorValues.none = "white";
 
     window.onhashchange = (e) => {
         readPonyHash(location.hash);
@@ -36,6 +37,7 @@ function generateInputs() {
         }
         selectList.onchange = () => update(true);
         inputs[type] = selectList;
+
 
         const label = document.createElement("label");
         holder.appendChild(label);
@@ -63,14 +65,22 @@ function generateInputs() {
             popup: 'center',
             color: 'violet',
             alpha: false,
-            editorFormat: 'hex'
+            editorFormat: 'hex',
+            onDone: function (color) {
+                colorValues[cname] = color.hex;
+                code.innerText = color.hex;
+                code.style.backgroundColor = color.hex;
+                update(true);
+            },
         });
 
         picker.onChange = function (color) {
+            if (ignoreUpdates) return;
+
             colorValues[cname] = color.hex;
             code.innerText = color.hex;
             code.style.backgroundColor = color.hex;
-            update(true);
+            throttledUpdate();
         }
 
         picker.id = cname + "Picker";
@@ -85,26 +95,37 @@ function readPonyHash(hash) {
         updatingHash = false;
         return;
     }
+    try {
+        ignoreUpdates = true;
 
-    if (hash.startsWith("#"))
-        hash = hash.substring(1);
+        if (hash.startsWith("#"))
+            hash = hash.substring(1);
 
-    let split1 = hash.split(":");
-    for (const pair of split1[0].split(";")) {
-        const split2 = pair.split("=");
-        inputs[split2[0]].value = split2[1];
-    }
-    for (const pair of split1[1].split(";")) {
-        const split2 = pair.split("=");
-        const colorValue = split2[1];
-        colorValues[split2[0]] = colorValue;
-        if (pickers[split2[0]]) {
+        let split1 = hash.split(":");
+        for (const pair of split1[0].split(";")) {
+            const split2 = pair.split("=");
+            if (!(assets[split2[0]]))
+                throw new Error("Invalid group " + split2[0]);
+            if (!(assets[split2[0]].items[split2[1]]))
+                throw new Error("Invalid part " + split2[1] + " for group " + split2[0]);
+            inputs[split2[0]].value = split2[1];
+        }
+        for (const pair of split1[1].split(";")) {
+            const split2 = pair.split("=");
+            const colorValue = split2[1];
+            if (!(colors[split2[0]]))
+                throw new Error("Invalid color " + split2[0]);
+            colorValues[split2[0]] = colorValue;
             pickers[split2[0]].setColor(colorValue);
             pickers[split2[0]].codeElement.innerText = colorValue;
             pickers[split2[0]].codeElement.style.backgroundColor = colorValue;
         }
+        update(false);
+    } catch (e) {
+        console.error(e);
+    } finally {
+        ignoreUpdates = false;
     }
-    update(false);
 }
 
 function makePonyHash(props) {
@@ -126,6 +147,16 @@ function readProps() {
         props[type] = input.value;
     }
     return props;
+}
+
+function throttledUpdate() {
+    if (renderTimeout != -1) return;
+
+    renderTimeout = setTimeout(() => {
+        update(false);
+
+        renderTimeout = -1;
+    }, 33)
 }
 
 function update(setHash) {
