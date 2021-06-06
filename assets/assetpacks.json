@@ -6,5 +6,9 @@
     "patachu-libre-flag": {
         "url": "assets/patachu-libre-flag",
         "displayName": "Patachu's libre flag-bearer set"
+    }	,
+    "dtavs-gentlemares": {
+        "url": "assets/dtavs-gentlemares",
+        "displayName": "DTavs' toasting mare set"
     }
 }

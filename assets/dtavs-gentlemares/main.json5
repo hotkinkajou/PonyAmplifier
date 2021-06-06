@@ -1,0 +1,257 @@
+{
+    meta:
+    {
+        license: "[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).\n\
+        Art by DTavs, adaptation by HotKinkajou.",
+    },
+    render:
+    {
+        canvasWidth: 2048,
+        canvasHeight: 2048,
+    },
+    "colors": {
+        "mane1": {
+            "displayName": "Mane main"
+        },
+        "mane2": {
+            "displayName": "Mane sec."
+        },
+        "maneAcc": {
+            "displayName": "Mane accessory"
+        },
+        "coat1": {
+            "displayName": "Coat main"
+        },
+        "coat2": {
+            "displayName": "Coat markings"
+        },
+		"eye1": {"displayName": "Eyes"},
+        "bg1": {
+            "displayName": "Background"
+        },
+        "acc1": {
+            "displayName": "Accessory"
+        },
+        "drink1": {
+            "displayName": "Drink"
+        }
+    },
+    "layers": {
+        "background": {},
+        "accessory-back": {},
+		"wings":{},
+        "mane-back": {},
+        "body": {},
+        "body-markings": {},
+		"clothes":{},
+		"head":{},
+        "mane-side": {},
+        "ear": {},
+        "horn": {},
+        "accessory": {},
+		"body-front":{},
+		"clothes-front":{},
+        "mane-top": {},
+        "accessory-top": {},
+		"flair": {}
+    },
+    "assets": {
+        "background": {
+            "displayName": "Background",
+            "layer": "background",
+            "color": "bg1",
+            "items": {
+                "none": {
+                    "displayName": "Transparent background",
+                    "type": "composite",
+                    "components": []
+                },
+                "simple": {
+                    "displayName": "Simple color",
+                    "url": "background/simple.png"
+                }
+            }
+        },
+        "base": {
+            "displayName": "Base",
+            "layer": "clothes",
+            "color": "none",
+            "items": {
+                "tux": {
+                    "displayName": "Tux",
+                    "type": "composite",
+                    "components": [
+						{ "url": "tux.png"},
+						{
+							"url" : "hoof.png",
+							"layer":"body-front",
+							"color":"coat1"
+						},
+						{
+							"url":"tux-sleeve.png",
+							"layer":"clothes-front"
+						},
+						{
+							"url":"bowtie.png",
+							"layer":"clothes-front"
+						},
+					]
+                },
+            }
+        },
+		"wings":
+		{
+			"displayName": "Wings",
+            "layer": "body",
+            "color": "coat1",
+            "items": {
+				"none": {
+                    "displayName": "None",
+                    "type": "composite",
+                    "components": []
+                },
+                "feather-folded": {
+                    "displayName": "Feather, folded",
+                    "type": "image",
+                    "url":"wings/feather-folded.png"
+                },
+            }
+		},
+		"face":
+		{
+			"displayName": "Face",
+            "layer": "head",
+            "color": "none",
+            "items": {
+                "regular": {
+                    "displayName": "Normal, smug",
+                    "type": "composite",
+                    "components": [
+						{
+							"url": "head.png",
+							"color": "coat1"
+						},
+						{
+							"url": "normal-smug-face.png",
+							"color": "coat1"
+						},
+                        { "url": "eyes/normal-smug-sclera.png" },
+                        {
+							"url": "eyes/normal-smug-irises.png",
+							"color": "eye1"				
+						},
+                        { "url": "eyes/normal-smug-pupils.png" },
+						{ "url": "eyes/normal-smug-eyeshines.png" },
+						{ "url": "eyes/normal-smug-eyelashes.png" },
+                    ]
+                },
+            }
+		},
+        "mane": {
+            "displayName": "Manestyle",
+            "layer": "mane-top",
+            "color": "mane1",
+            "items": {
+                "dtavs": {
+                    "displayName": "DTavs",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "mane/dtavs-back.png",
+                            "layer": "mane-back",
+                        },
+						{
+                            "url": "mane/dtavs-back-highlight.png",
+                            "layer": "mane-back",
+                            "color": "mane2"
+                        },
+                        {
+                            "url": "mane/dtavs-front.png",
+                            "layer": "mane-side"
+                        },
+						{
+                            "url": "mane/dtavs-front-highlight.png",
+                            "layer": "mane-side",
+							"color": "mane2"
+                        }
+                    ]
+                },
+            }
+        },
+		"horn":
+		{
+			"displayName": "Horn",
+            "layer": "horn",
+            "color": "coat1",
+            "items": {
+				"none": {
+                    "displayName": "None",
+                    "type": "composite",
+                    "components": []
+                },
+                "feather-folded": {
+                    "displayName": "Regular, stubby",
+                    "type": "image",
+                    "url":"horn/regular.png"
+                },
+            }
+		},
+		"ear": {
+            "displayName": "Ears",
+            "layer": "ear",
+            "color": "coat1",
+            "items": {
+                "reg": {
+                    "displayName": "Regular",
+                    "url":"ear/regular.png"
+                }
+            }
+        },
+		"drink":
+		{
+            "displayName": "Drink",
+            "layer": "accessory",
+            "color": "none",
+            "items": {
+                "none": {
+                    "displayName": "None",
+                    "type": "composite",
+                    "components": []
+                },
+                "wine": {
+                    "displayName": "Wineglass",
+                    "type": "composite",
+                    "components": 
+					[
+						{ "url":"glass/wineglass-glass.png"},
+						{
+							"url":"glass/wineglass-liquid.png",
+							"color": "drink1"
+						},
+						{ "url":"glass/wineglass-shine.png"},
+					]
+                }
+			}
+        },
+		"flair": {
+            "displayName": "Flair",
+            "layer": "flair",
+            "color": "none",
+            "items": {
+                "none": {
+                    "displayName": "None",
+                    "type": "composite",
+                    "components": []
+                },
+                "pin": {
+                    "displayName": "Pinned thread",
+                    "url": "flair/pin.png"
+                },
+				"partyhat": {
+                    "displayName": "Party hat",
+                    "url": "flair/partyhat.png"
+                },
+			}
+        },
+    }
+}
