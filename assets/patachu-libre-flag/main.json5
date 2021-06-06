@@ -1,0 +1,379 @@
+{
+    render:
+    {
+        canvasWidth: 2000,
+        canvasHeight: 2000,
+    },
+    "layers": {
+        "background": {},
+        "accessory-back": {},
+        "body-back": {},
+        "mane-back": {},
+        "body": {},
+        "body-markings": {},
+        "mane-side": {},
+        "inmouth": {},
+        "mouth": {},
+        "ear": {},
+        "horn": {},
+        "mane-top": {},
+        "accessory-top": {}
+    },
+    "colors": {
+        "mane1": {
+            "displayName": "Mane main",
+            default: "green"
+        },
+        "mane2": {
+            "displayName": "Mane secondary",
+            default: "darkgreen"
+        },
+        "coat1": {
+            "displayName": "Coat",
+            default: "gray"
+        },
+        "eye": {
+            "displayName": "Eye",
+            default: "cyan"
+        },
+        "bg1": {
+            "displayName": "Background tint",
+            default: "white"
+        },
+        "acc1": {
+            "displayName": "Accessory",
+            default: "brown"
+        },
+        "flag1": {
+            "displayName": "Flag 1",
+            default: "white"
+        },
+        "flag2": {
+            "displayName": "Flag 2",
+            default: "red"
+        },
+        "flag3": {
+            "displayName": "Flag 3",
+            default: "blue"
+        }
+    },
+    "assets": {
+        "background": {
+            "displayName": "Backgrounds",
+            "layer": "background",
+            "color": "bg1",
+            "items": {
+                "none": {
+                    "displayName": "Transparent background",
+                    "type": "composite",
+                    "components": []
+                },
+                "simple": {
+                    "displayName": "Simple color",
+                    "url": "background/simple.png"
+                }
+            }
+        },
+        "body": {
+            "displayName": "Body type",
+            "layer": "body",
+            "color": "coat1",
+            "items": {
+                "pony": {
+                    "displayName": "Pony",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "body/ear-back.png",
+                            "layer": "body-back"
+                        },
+                        {
+                            "url": "body/eyeball.png",
+                            "color": "none"
+                        },
+                        {
+                            "url": "body/eyes.png",
+                            "color": "eye"
+                        },
+                        {
+                            "url": "body/head-base.png"
+                        },
+                        {
+                            "url": "body/ear-front.png",
+                            "layer": "ear"
+                        },
+                        {
+                            "url": "body/mouth.png",
+                            "layer": "mouth"
+                        }
+                    ]
+                },
+                "unicorn": {
+                    "displayName": "Unicorn",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "body/ear-back.png",
+                            "layer": "body-back"
+                        },
+                        {
+                            "url": "body/eyeball.png",
+                            "color": "none"
+                        },
+                        {
+                            "url": "body/eyes.png",
+                            "color": "eye"
+                        },
+                        {
+                            "url": "body/head-base.png"
+                        },
+                        {
+                            "url": "body/ear-front.png",
+                            "layer": "ear"
+                        },
+                        {
+                            "url": "body/horn.png",
+                            "layer": "horn"
+                        },
+                        {
+                            "url": "body/mouth.png",
+                            "layer": "mouth"
+                        }
+                    ]
+                },
+            }
+        },
+        "mane": {
+            "displayName": "Manestyles",
+            "layer": "mane-top",
+            "color": "mane1",
+            "items": {
+                "alpha": {
+                    "displayName": "Alpha",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "mane/hair-2-side.png",
+                            "layer": "mane-side"
+                        },
+                        {
+                            "url": "mane/hair-2-top.png",
+                            "layer": "mane-top"
+                        }
+                    ]
+                },
+                "sigma": {
+                    "displayName": "Sigma",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "mane/hair-1-back.png",
+                            "layer": "mane-back",
+                            "color": "mane2"
+                        },
+                        {
+                            "url": "mane/hair-1-side.png",
+                            "layer": "mane-side"
+                        },
+                        {
+                            "url": "mane/hair-1-top.png",
+                            "layer": "mane-top"
+                        }
+                    ]
+                },
+                "beta": {
+                    "displayName": "Beta",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "mane/hair-beta-back.png",
+                            "layer": "mane-back",
+                            "color": "mane2"
+                        },
+                        {
+                            "url": "mane/hair-beta-side.png",
+                            "layer": "mane-side"
+                        },
+                        {
+                            "url": "mane/hair-beta-top.png",
+                            "layer": "mane-top"
+                        }
+                    ]
+                },
+                "spiky": {
+                    "displayName": "Spiky",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "mane/hair-spiky-back.png",
+                            "layer": "mane-back",
+                            "color": "mane2"
+                        },
+                        {
+                            "url": "mane/hair-spiky-side.png",
+                            "layer": "mane-side"
+                        },
+                        {
+                            "url": "mane/hair-spiky-top.png",
+                            "layer": "mane-top"
+                        }
+                    ]
+                },
+                "wavy": {
+                    "displayName": "Wavy",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "mane/hair-wavy-back.png",
+                            "layer": "mane-back",
+                            "color": "mane2"
+                        },
+                        {
+                            "url": "mane/hair-wavy-side.png",
+                            "layer": "mane-side"
+                        },
+                        {
+                            "url": "mane/hair-wavy-top.png",
+                            "layer": "mane-top"
+                        }
+                    ]
+                },
+                "cowlick": {
+                    "displayName": "Cowlick",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "mane/hair-cowlick-back.png",
+                            "layer": "mane-back",
+                            "color": "mane2"
+                        },
+                        {
+                            "url": "mane/hair-cowlick-side.png",
+                            "layer": "mane-side"
+                        },
+                        {
+                            "url": "mane/hair-cowlick-top.png",
+                            "layer": "mane-top"
+                        }
+                    ]
+                },
+            }
+        },
+        "flag": {
+            "displayName": "Flag",
+            "layer": "accessory-back",
+            "color": "acc1",
+            "items": {
+                "none": {
+                    "displayName": "None",
+                    "type": "composite",
+                    "components": []
+                },
+                "one": {
+                    "displayName": "One color",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "flag-back.png"
+                        },
+                        {
+                            "url": "flag.png",
+                            "color": "flag1"
+                        },
+                        {
+                            "url": "flag-front.png",
+                            "layer": "inmouth"
+                        }
+                    ]
+                },
+                "two": {
+                    "displayName": "Two colors",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "flag-back.png"
+                        },
+                        {
+                            "url": "flag.png",
+                            "color": "flag1"
+                        },
+                        {
+                            "url": "flag-half.png",
+                            "color": "flag2"
+                        },
+                        {
+                            "url": "flag-front.png",
+                            "layer": "inmouth"
+                        }
+                    ]
+                },
+                "three": {
+                    "displayName": "Three colors",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "flag-back.png"
+                        },
+                        {
+                            "url": "flag.png",
+                            "color": "flag1"
+                        },
+                        {
+                            "url": "flag-twothird.png",
+                            "color": "flag2"
+                        },
+                        {
+                            "url": "flag-third.png",
+                            "color": "flag3"
+                        },
+                        {
+                            "url": "flag-front.png",
+                            "layer": "inmouth"
+                        }
+                    ]
+                },
+                "twovert": {
+                    "displayName": "Two colors, vertical",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "flag-back.png"
+                        },
+                        {
+                            "url": "flag.png",
+                            "color": "flag1"
+                        },
+                        {
+                            "url": "flag-verthalf.png",
+                            "color": "flag2"
+                        },
+                        {
+                            "url": "flag-front.png",
+                            "layer": "inmouth"
+                        }
+                    ]
+                },
+            }
+        },
+        "snowpitys": {
+            "displayName": "Snowpitys",
+            "items": {
+                "hefty": {
+                    "displayName": "Hefty",
+                    "type": "composite",
+                    "components": []
+                },
+                "sultry": {
+                    "displayName": "Sultry",
+                    "type": "composite",
+                    "components": []
+                },
+                "cozy": {
+                    "displayName": "Cozy",
+                    "type": "composite",
+                    "components": []
+                }
+            }
+        }
+    }
+}

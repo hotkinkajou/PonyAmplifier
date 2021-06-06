@@ -8,14 +8,31 @@
 </head>
 
 <body>
-	<canvas id="av" width="1080" height="1080"></canvas>
-	<canvas id="dbg" width="1080" height="1080"></canvas>
+	<canvas id="av"></canvas>
+	<canvas id="dbg"></canvas>
 	<br />
-	<div class="propsTable" id="propsRoot">
+	<div class="holderButtons block">
+		<button href="javascript:void" id="btnDownload">Download ⬇️</button>
+		<button href="javascript:void" id="btnRandomize">Randomize 🎲</button>
+		<button href="javascript:void" id="btnCopyLink">Copy link 🔗</button>
+	</div>
+	<div class="holderAssetpacks block">
+		<label for="packPicker">Asset pack: </label>
+		<select id="packPicker"> </select>
+	</div>
+	<div class="holderProperties block" id="propsRoot">
+
+	</div>
+	</div>
+	<div class="colorsRoot block" id="colorsRoot">
+
 	</div>
 
-	<script src="https://unpkg.com/vanilla-picker@2"></script>
-	<script src="./main.js" type="module"> </script>
+	<div class="licenseHolder block" id="licenseRoot">
+
+	</div>
+
+	<script src="./dist/ponyamplifier.bundle.js"> </script>
 </body>
 
 </html>

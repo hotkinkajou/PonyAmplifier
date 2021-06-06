@@ -1,16 +1,112 @@
+body {
+	display: flex;
+	flex-direction: column;
+	width: min-content;
+	margin: 0 auto;
+	background-color: #eee;
+	font-size:large;
+  }
+
+select
+{
+	font-size: medium;
+	padding: 2px;
+}
+  
 #av
 {
-	width:540px;
-	height:540px;
+	width:500px;
+	height:500px;
+	border: solid #aaa 2px;
+	margin: 5px;
 }
 
 #dbg
 {
 	display:none;
+	border: cornflowerblue;
 }
 
+span.colorPreview
+{
+	padding: 2px;
+
+}
 
 .pickerParent
 {
 	background: fixed;
 }
+
+.inactive
+{
+	display:none;
+}
+
+.block
+{
+	padding: 5px;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #04AA6D;
+	border: none;
+	border-radius: 0px;
+	box-shadow: 2px 2px #999;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+	background-color: #3e8e41;
+	box-shadow: 1px 1px #666;
+	transform: translate(1px, 1px);
+  }
+
+  
+.propHolder {
+	display: flex;
+	margin: 2px;
+}
+.propHolder-prop {
+	flex: 5;
+}
+
+.propHolder-descr {
+	text-align:right;
+	padding-right: 5px;
+	flex: 2;
+	background-color: #ddd;
+	color: #333;
+
+  }
+
+  .colorsRoot
+  {
+	  display: flex;
+	flex-wrap: wrap;
+  }
+
+  .pickerHolder {
+	display: flex;
+	margin: 2px;
+	width: 48%;
+}
+.pickerHolder-prop {
+	flex: 1;
+}
+
+.pickerHolder-descr {
+	text-align:right;
+	padding-right: 5px;
+	flex: 1;
+	background-color: #ddd;
+	color: #333;
+
+  }
