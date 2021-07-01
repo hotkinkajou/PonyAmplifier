@@ -1,4 +1,13 @@
 {
+    meta:
+    {
+        license: "[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).\n\
+        Art by [Darkdoomer](http://www.nowhereincoming.net/), adaptation by HotKinkajou.",
+    },
+	include:
+    [
+        "generated/optimizedImages.json"
+    ],
     render:
     {
         canvasWidth: 2000,
@@ -355,24 +364,13 @@
                 },
             }
         },
-        "snowpitys": {
-            "displayName": "Snowpitys",
-            "items": {
-                "hefty": {
-                    "displayName": "Hefty",
-                    "type": "composite",
-                    "components": []
-                },
-                "sultry": {
-                    "displayName": "Sultry",
-                    "type": "composite",
-                    "components": []
-                },
-                "cozy": {
-                    "displayName": "Cozy",
-                    "type": "composite",
-                    "components": []
-                }
+        snowpitys: {
+            displayName: "Snowpitys",
+            items: {
+                hefty: { displayName: "Hefty", components: []},
+                sultry: { displayName: "Sultry", components: []},
+                cozy: { displayName: "Cozy", components: []},
+                heady:{displayName:"Heady" ,components: []}
             }
         }
     }

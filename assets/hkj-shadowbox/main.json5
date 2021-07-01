@@ -1,5 +1,14 @@
 {
-    render:
+    meta:
+    {
+        license: "[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).\n\
+        Art and adaptation by HotKinkajou. Includes designs from MLP:FiM by Hasbro.",
+    },
+    include:
+    [
+        "generated/optimizedImages.json"
+    ], 
+	render:
     {
         canvasWidth: 1080,
         canvasHeight: 1080,
@@ -304,24 +313,13 @@
                 }
             }
         },
-        "snowpitys": {
-            "displayName": "Snowpitys",
-            "items": {
-                "hefty": {
-                    "displayName": "Hefty",
-                    "type": "composite",
-                    "components": []
-                },
-                "sultry": {
-                    "displayName": "Sultry",
-                    "type": "composite",
-                    "components": []
-                },
-                "cozy": {
-                    "displayName": "Cozy",
-                    "type": "composite",
-                    "components": []
-                }
+        snowpitys: {
+            displayName: "Snowpitys",
+            items: {
+                hefty: { displayName: "Hefty", components: []},
+                sultry: { displayName: "Sultry", components: []},
+                cozy: { displayName: "Cozy", components: []},
+                heady: {displayName:"Heady" ,components: []}
             }
         }
     }

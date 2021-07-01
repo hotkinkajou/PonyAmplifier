@@ -38,11 +38,6 @@ span.colorPreview
 	background: fixed;
 }
 
-.inactive
-{
-	display:none;
-}
-
 .block
 {
 	padding: 5px;
@@ -60,7 +55,13 @@ button {
 	border-radius: 0px;
 	box-shadow: 2px 2px #999;
   }
-  
+
+  button > *
+  {
+	  vertical-align :middle;
+  }
+
+
   button:hover {background-color: #3e8e41}
   
   button:active {
@@ -98,6 +99,12 @@ button {
 	margin: 2px;
 	width: 48%;
 }
+
+.pickerHolder.inactive
+{
+	display:none;
+}
+
 .pickerHolder-prop {
 	flex: 1;
 }
@@ -110,3 +117,12 @@ button {
 	color: #333;
 
   }
+
+  .licenseHolder
+  {
+	  font-size: 0.7em;
+	  color: #999;
+  }
+
+  
+

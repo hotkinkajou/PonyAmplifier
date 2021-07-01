@@ -1,0 +1,511 @@
+{
+  "optimizedImages": {
+    "background/simple.png": {
+      "trim-full": {
+        "url": "generated/background/simple@trim-full.png",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "size": {
+          "w": 2048,
+          "h": 2048
+        }
+      }
+    },
+    "tux.png": {
+      "trim-full": {
+        "url": "generated/tux@trim-full.png",
+        "offset": {
+          "x": 349,
+          "y": 1108
+        },
+        "size": {
+          "w": 1183,
+          "h": 940
+        }
+      }
+    },
+    "hoof.png": {
+      "trim-full": {
+        "url": "generated/hoof@trim-full.png",
+        "offset": {
+          "x": 641,
+          "y": 1500
+        },
+        "size": {
+          "w": 427,
+          "h": 508
+        }
+      }
+    },
+    "tux-sleeve.png": {
+      "trim-full": {
+        "url": "generated/tux-sleeve@trim-full.png",
+        "offset": {
+          "x": 580,
+          "y": 1655
+        },
+        "size": {
+          "w": 305,
+          "h": 381
+        }
+      }
+    },
+    "bowtie.png": {
+      "trim-full": {
+        "url": "generated/bowtie@trim-full.png",
+        "offset": {
+          "x": 799,
+          "y": 1048
+        },
+        "size": {
+          "w": 474,
+          "h": 310
+        }
+      }
+    },
+    "wings/feather-folded.png": {
+      "trim-full": {
+        "url": "generated/wings/feather-folded@trim-full.png",
+        "offset": {
+          "x": 267,
+          "y": 1207
+        },
+        "size": {
+          "w": 643,
+          "h": 841
+        }
+      }
+    },
+    "head.png": {
+      "trim-full": {
+        "url": "generated/head@trim-full.png",
+        "offset": {
+          "x": 381,
+          "y": 280
+        },
+        "size": {
+          "w": 1069,
+          "h": 952
+        }
+      }
+    },
+    "normal-smug-face.png": {
+      "trim-full": {
+        "url": "generated/normal-smug-face@trim-full.png",
+        "offset": {
+          "x": 620,
+          "y": 566
+        },
+        "size": {
+          "w": 765,
+          "h": 540
+        }
+      }
+    },
+    "eyes/normal-smug-sclera.png": {
+      "trim-full": {
+        "url": "generated/eyes/normal-smug-sclera@trim-full.png",
+        "offset": {
+          "x": 609,
+          "y": 804
+        },
+        "size": {
+          "w": 788,
+          "h": 233
+        }
+      }
+    },
+    "eyes/normal-smug-irises.png": {
+      "trim-full": {
+        "url": "generated/eyes/normal-smug-irises@trim-full.png",
+        "offset": {
+          "x": 703,
+          "y": 804
+        },
+        "size": {
+          "w": 602,
+          "h": 145
+        }
+      }
+    },
+    "eyes/normal-smug-pupils.png": {
+      "trim-full": {
+        "url": "generated/eyes/normal-smug-pupils@trim-full.png",
+        "offset": {
+          "x": 761,
+          "y": 809
+        },
+        "size": {
+          "w": 478,
+          "h": 82
+        }
+      }
+    },
+    "eyes/normal-smug-eyeshines.png": {
+      "trim-full": {
+        "url": "generated/eyes/normal-smug-eyeshines@trim-full.png",
+        "offset": {
+          "x": 785,
+          "y": 815
+        },
+        "size": {
+          "w": 442,
+          "h": 57
+        }
+      }
+    },
+    "eyes/normal-smug-eyelashes.png": {
+      "trim-full": {
+        "url": "generated/eyes/normal-smug-eyelashes@trim-full.png",
+        "offset": {
+          "x": 442,
+          "y": 699
+        },
+        "size": {
+          "w": 1077,
+          "h": 309
+        }
+      }
+    },
+    "eyes/normal-smug-eyelashes-male.png": {
+      "trim-full": {
+        "url": "generated/eyes/normal-smug-eyelashes-male@trim-full.png",
+        "offset": {
+          "x": 558,
+          "y": 770
+        },
+        "size": {
+          "w": 943,
+          "h": 238
+        }
+      }
+    },
+    "eyes/normal-smug-eyebrows-thick.png": {
+      "trim-full": {
+        "url": "generated/eyes/normal-smug-eyebrows-thick@trim-full.png",
+        "offset": {
+          "x": 532,
+          "y": 462
+        },
+        "size": {
+          "w": 879,
+          "h": 204
+        }
+      }
+    },
+    "mane/dtavs-back.png": {
+      "trim-full": {
+        "url": "generated/mane/dtavs-back@trim-full.png",
+        "offset": {
+          "x": 1070,
+          "y": 499
+        },
+        "size": {
+          "w": 451,
+          "h": 651
+        }
+      }
+    },
+    "mane/dtavs-back-highlight.png": {
+      "trim-full": {
+        "url": "generated/mane/dtavs-back-highlight@trim-full.png",
+        "offset": {
+          "x": 1379,
+          "y": 525
+        },
+        "size": {
+          "w": 115,
+          "h": 487
+        }
+      }
+    },
+    "mane/dtavs-front.png": {
+      "trim-full": {
+        "url": "generated/mane/dtavs-front@trim-full.png",
+        "offset": {
+          "x": 203,
+          "y": 128
+        },
+        "size": {
+          "w": 1381,
+          "h": 1028
+        }
+      }
+    },
+    "mane/dtavs-front-highlight.png": {
+      "trim-full": {
+        "url": "generated/mane/dtavs-front-highlight@trim-full.png",
+        "offset": {
+          "x": 283,
+          "y": 424
+        },
+        "size": {
+          "w": 617,
+          "h": 567
+        }
+      }
+    },
+    "mane/acres-back.png": {
+      "trim-full": {
+        "url": "generated/mane/acres-back@trim-full.png",
+        "offset": {
+          "x": 225,
+          "y": 512
+        },
+        "size": {
+          "w": 457,
+          "h": 1035
+        }
+      }
+    },
+    "mane/acres-side.png": {
+      "trim-full": {
+        "url": "generated/mane/acres-side@trim-full.png",
+        "offset": {
+          "x": 266,
+          "y": 511
+        },
+        "size": {
+          "w": 442,
+          "h": 851
+        }
+      }
+    },
+    "mane/acres-front.png": {
+      "trim-full": {
+        "url": "generated/mane/acres-front@trim-full.png",
+        "offset": {
+          "x": 444,
+          "y": 9
+        },
+        "size": {
+          "w": 1353,
+          "h": 972
+        }
+      }
+    },
+    "mane/anonmare-back.png": {
+      "trim-full": {
+        "url": "generated/mane/anonmare-back@trim-full.png",
+        "offset": {
+          "x": 166,
+          "y": 503
+        },
+        "size": {
+          "w": 1613,
+          "h": 1090
+        }
+      }
+    },
+    "mane/anonmare-front.png": {
+      "trim-full": {
+        "url": "generated/mane/anonmare-front@trim-full.png",
+        "offset": {
+          "x": 229,
+          "y": 53
+        },
+        "size": {
+          "w": 1489,
+          "h": 1130
+        }
+      }
+    },
+    "mane/filthyrich-back.png": {
+      "trim-full": {
+        "url": "generated/mane/filthyrich-back@trim-full.png",
+        "offset": {
+          "x": 190,
+          "y": 309
+        },
+        "size": {
+          "w": 536,
+          "h": 1022
+        }
+      }
+    },
+    "mane/filthyrich-front.png": {
+      "trim-full": {
+        "url": "generated/mane/filthyrich-front@trim-full.png",
+        "offset": {
+          "x": 424,
+          "y": 153
+        },
+        "size": {
+          "w": 872,
+          "h": 524
+        }
+      }
+    },
+    "horn/regular.png": {
+      "trim-full": {
+        "url": "generated/horn/regular@trim-full.png",
+        "offset": {
+          "x": 963,
+          "y": 99
+        },
+        "size": {
+          "w": 318,
+          "h": 395
+        }
+      }
+    },
+    "ear/regular.png": {
+      "trim-full": {
+        "url": "generated/ear/regular@trim-full.png",
+        "offset": {
+          "x": 264,
+          "y": 160
+        },
+        "size": {
+          "w": 310,
+          "h": 536
+        }
+      }
+    },
+    "hat/cowboy.png": {
+      "trim-full": {
+        "url": "generated/hat/cowboy@trim-full.png",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "size": {
+          "w": 1268,
+          "h": 1300
+        }
+      }
+    },
+    "glass/wineglass-liquid.png": {
+      "trim-full": {
+        "url": "generated/glass/wineglass-liquid@trim-full.png",
+        "offset": {
+          "x": 648,
+          "y": 1400
+        },
+        "size": {
+          "w": 504,
+          "h": 237
+        }
+      }
+    },
+    "glass/wineglass-glass.png": {
+      "trim-full": {
+        "url": "generated/glass/wineglass-glass@trim-full.png",
+        "offset": {
+          "x": 624,
+          "y": 1250
+        },
+        "size": {
+          "w": 556,
+          "h": 765
+        }
+      }
+    },
+    "glass/wineglass-shine.png": {
+      "trim-full": {
+        "url": "generated/glass/wineglass-shine@trim-full.png",
+        "offset": {
+          "x": 694,
+          "y": 1278
+        },
+        "size": {
+          "w": 465,
+          "h": 302
+        }
+      }
+    },
+    "glass/olive.png": {
+      "trim-full": {
+        "url": "generated/glass/olive@trim-full.png",
+        "offset": {
+          "x": 748,
+          "y": 1217
+        },
+        "size": {
+          "w": 460,
+          "h": 375
+        }
+      }
+    },
+    "glass/apple-slice.png": {
+      "trim-full": {
+        "url": "generated/glass/apple-slice@trim-full.png",
+        "offset": {
+          "x": 682,
+          "y": 1142
+        },
+        "size": {
+          "w": 90,
+          "h": 267
+        }
+      }
+    },
+    "glass/tall-liquid.png": {
+      "trim-full": {
+        "url": "generated/glass/tall-liquid@trim-full.png",
+        "offset": {
+          "x": 739,
+          "y": 1381
+        },
+        "size": {
+          "w": 377,
+          "h": 552
+        }
+      }
+    },
+    "glass/tall-glass.png": {
+      "trim-full": {
+        "url": "generated/glass/tall-glass@trim-full.png",
+        "offset": {
+          "x": 719,
+          "y": 1258
+        },
+        "size": {
+          "w": 417,
+          "h": 722
+        }
+      }
+    },
+    "glass/tall-shine.png": {
+      "trim-full": {
+        "url": "generated/glass/tall-shine@trim-full.png",
+        "offset": {
+          "x": 758,
+          "y": 1258
+        },
+        "size": {
+          "w": 98,
+          "h": 722
+        }
+      }
+    },
+    "flair/pin.png": {
+      "trim-full": {
+        "url": "generated/flair/pin@trim-full.png",
+        "offset": {
+          "x": 1797,
+          "y": 11
+        },
+        "size": {
+          "w": 222,
+          "h": 232
+        }
+      }
+    },
+    "flair/partyhat.png": {
+      "trim-full": {
+        "url": "generated/flair/partyhat@trim-full.png",
+        "offset": {
+          "x": 286,
+          "y": 0
+        },
+        "size": {
+          "w": 576,
+          "h": 467
+        }
+      }
+    }
+  }
+}

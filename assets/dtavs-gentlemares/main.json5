@@ -4,6 +4,10 @@
         license: "[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).\n\
         Art by DTavs, adaptation by HotKinkajou.",
     },
+	include:
+    [
+        "generated/optimizedImages.json"
+    ],
     render:
     {
         canvasWidth: 2048,
@@ -26,6 +30,7 @@
             "displayName": "Coat markings"
         },
 		"eye1": {"displayName": "Eyes"},
+		"hat1": {"displayName": "Headgear"},
         "bg1": {
             "displayName": "Background"
         },
@@ -39,6 +44,7 @@
     "layers": {
         "background": {},
         "accessory-back": {},
+		"hat": {},
 		"wings":{},
         "mane-back": {},
         "body": {},
@@ -123,8 +129,8 @@
             "layer": "head",
             "color": "none",
             "items": {
-                "regular": {
-                    "displayName": "Normal, smug",
+                "mare-smug": {
+                    "displayName": "Mare, smug",
                     "type": "composite",
                     "components": [
 						{
@@ -145,6 +151,29 @@
 						{ "url": "eyes/normal-smug-eyelashes.png" },
                     ]
                 },
+				"stallion-smug": {
+                    "displayName": "Stallion, smug",
+                    "type": "composite",
+                    "components": [
+						{
+							"url": "head.png",
+							"color": "coat1"
+						},
+						{
+							"url": "normal-smug-face.png",
+							"color": "coat1"
+						},
+                        { "url": "eyes/normal-smug-sclera.png" },
+                        {
+							"url": "eyes/normal-smug-irises.png",
+							"color": "eye1"				
+						},
+                        { "url": "eyes/normal-smug-pupils.png" },
+						{ "url": "eyes/normal-smug-eyeshines.png" },
+						{ "url": "eyes/normal-smug-eyelashes-male.png" },
+						{ "url": "eyes/normal-smug-eyebrows-thick.png" },
+                    ]
+                },
             }
 		},
         "mane": {
@@ -153,7 +182,7 @@
             "color": "mane1",
             "items": {
                 "dtavs": {
-                    "displayName": "DTavs",
+                    "displayName": "Pixie",
                     "type": "composite",
                     "components": [
                         {
@@ -174,6 +203,52 @@
                             "layer": "mane-side",
 							"color": "mane2"
                         }
+                    ]
+                },
+				"acres": {
+                    "displayName": "Rustic",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "mane/acres-back.png",
+                            "layer": "mane-back",
+                        },
+                        {
+                            "url": "mane/acres-side.png",
+                            "layer": "mane-side"
+                        },
+						{
+                            "url": "mane/acres-front.png",
+                            "layer": "mane-side"
+                        },
+                    ]
+                },
+				"anonmare": {
+                    "displayName": "Messy",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "mane/anonmare-back.png",
+                            "layer": "mane-back",
+                        },
+						{
+                            "url": "mane/anonmare-front.png",
+                            "layer": "mane-side"
+                        },
+                    ]
+                },
+				"filthyrich": {
+                    "displayName": "Slick",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "mane/filthyrich-back.png",
+                            "layer": "mane-back",
+                        },
+						{
+                            "url": "mane/filthyrich-front.png",
+                            "layer": "mane-side"
+                        },
                     ]
                 },
             }
@@ -207,6 +282,22 @@
                 }
             }
         },
+		"hat": {
+            "displayName": "Headgear",
+            "layer": "hat",
+            "color": "hat1",
+            "items": {
+				"none": {
+                    "displayName": "None",
+                    "type": "composite",
+                    "components": []
+                },
+                "cowboy": {
+                    "displayName": "Cowboy hat",
+                    "url":"hat/cowboy.png"
+                }
+            }
+        },
 		"drink":
 		{
             "displayName": "Drink",
@@ -223,14 +314,43 @@
                     "type": "composite",
                     "components": 
 					[
+						{ "url":"glass/wineglass-liquid.png", "color": "drink1" },
 						{ "url":"glass/wineglass-glass.png"},
-						{
-							"url":"glass/wineglass-liquid.png",
-							"color": "drink1"
-						},
 						{ "url":"glass/wineglass-shine.png"},
 					]
-                }
+                },
+				"martini": {
+                    "displayName": "Martini",
+                    "type": "composite",
+                    "components": 
+					[
+						{ "url":"glass/olive.png"},
+						{ "url":"glass/wineglass-liquid.png", "color": "drink1" },
+						{ "url":"glass/wineglass-glass.png"},
+						{ "url":"glass/wineglass-shine.png"},
+					]
+                },
+				"applejack": {
+                    "displayName": "Applejack",
+                    "type": "composite",
+                    "components": 
+					[
+						{ "url":"glass/wineglass-liquid.png", "color": "drink1"},
+						{ "url":"glass/wineglass-glass.png"},
+						{ "url":"glass/wineglass-shine.png"},
+						{ "url":"glass/apple-slice.png"},
+					]
+                },
+				"choccy": {
+                    "displayName": "Tall glass",
+                    "type": "composite",
+                    "components": 
+					[
+						{ "url":"glass/tall-liquid.png", "color": "drink1"},
+						{ "url":"glass/tall-glass.png"},
+						{ "url":"glass/tall-shine.png"},
+					]
+                },
 			}
         },
 		"flair": {

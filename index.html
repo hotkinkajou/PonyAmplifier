@@ -1,10 +1,10 @@
 <html>
 
 <head>
-	<title>Pony multiplier</title>
+	<title>Art Amplifier</title>
 	<link href="./main.css" rel="stylesheet" />
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
+	<link rel="icon" type="image/png" sizes="32x32" href="ui/favicon-32x32.png">
 </head>
 
 <body>
@@ -12,13 +12,23 @@
 	<canvas id="dbg"></canvas>
 	<br />
 	<div class="holderButtons block">
-		<button href="javascript:void" id="btnDownload">Download ⬇️</button>
-		<button href="javascript:void" id="btnRandomize">Randomize 🎲</button>
-		<button href="javascript:void" id="btnCopyLink">Copy link 🔗</button>
+		<button href="javascript:void" id="btnDownload">
+			<span>Download</span>
+			<img src="ui/download.png" height="24px" />
+		</button>
+		<button href="javascript:void" id="btnRandomize">
+			<span>Randomize</span>
+			<img src="ui/randomize6.png" height="24px" />
+		</button>
+		<button href="javascript:void" id="btnCopyLink">
+			<span>Copy link</span>
+			<img src="ui/copy_link.png" height="24px" />
+		</button>
 	</div>
 	<div class="holderAssetpacks block">
 		<label for="packPicker">Asset pack: </label>
 		<select id="packPicker"> </select>
+		<input id="zipPicker" type="file" style="display: none">
 	</div>
 	<div class="holderProperties block" id="propsRoot">
 
@@ -29,7 +39,6 @@
 	</div>
 
 	<div class="licenseHolder block" id="licenseRoot">
-
 	</div>
 
 	<script src="./dist/ponyamplifier.bundle.js"> </script>

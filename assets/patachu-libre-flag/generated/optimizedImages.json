@@ -1,0 +1,420 @@
+{
+  "optimizedImages": {
+    "background/simple.png": {
+      "trim-full": {
+        "url": "generated/background/simple@trim-full.png",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "size": {
+          "w": 2000,
+          "h": 2000
+        }
+      }
+    },
+    "body/ear-back.png": {
+      "trim-full": {
+        "url": "generated/body/ear-back@trim-full.png",
+        "offset": {
+          "x": 565,
+          "y": 100
+        },
+        "size": {
+          "w": 320,
+          "h": 466
+        }
+      }
+    },
+    "body/eyeball.png": {
+      "trim-full": {
+        "url": "generated/body/eyeball@trim-full.png",
+        "offset": {
+          "x": 475,
+          "y": 692
+        },
+        "size": {
+          "w": 864,
+          "h": 525
+        }
+      }
+    },
+    "body/eyes.png": {
+      "trim-full": {
+        "url": "generated/body/eyes@trim-full.png",
+        "offset": {
+          "x": 489,
+          "y": 857
+        },
+        "size": {
+          "w": 584,
+          "h": 263
+        }
+      }
+    },
+    "body/head-base.png": {
+      "trim-full": {
+        "url": "generated/body/head-base@trim-full.png",
+        "offset": {
+          "x": 408,
+          "y": 375
+        },
+        "size": {
+          "w": 1201,
+          "h": 1625
+        }
+      }
+    },
+    "body/ear-front.png": {
+      "trim-full": {
+        "url": "generated/body/ear-front@trim-full.png",
+        "offset": {
+          "x": 1276,
+          "y": 56
+        },
+        "size": {
+          "w": 431,
+          "h": 792
+        }
+      }
+    },
+    "body/mouth.png": {
+      "trim-full": {
+        "url": "generated/body/mouth@trim-full.png",
+        "offset": {
+          "x": 530,
+          "y": 1386
+        },
+        "size": {
+          "w": 191,
+          "h": 77
+        }
+      }
+    },
+    "body/horn.png": {
+      "trim-full": {
+        "url": "generated/body/horn@trim-full.png",
+        "offset": {
+          "x": 420,
+          "y": 180
+        },
+        "size": {
+          "w": 392,
+          "h": 510
+        }
+      }
+    },
+    "mane/hair-2-side.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-2-side@trim-full.png",
+        "offset": {
+          "x": 281,
+          "y": 119
+        },
+        "size": {
+          "w": 1493,
+          "h": 1636
+        }
+      }
+    },
+    "mane/hair-2-top.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-2-top@trim-full.png",
+        "offset": {
+          "x": 611,
+          "y": 450
+        },
+        "size": {
+          "w": 476,
+          "h": 325
+        }
+      }
+    },
+    "mane/hair-1-back.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-1-back@trim-full.png",
+        "offset": {
+          "x": 408,
+          "y": 460
+        },
+        "size": {
+          "w": 266,
+          "h": 484
+        }
+      }
+    },
+    "mane/hair-1-side.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-1-side@trim-full.png",
+        "offset": {
+          "x": 328,
+          "y": 174
+        },
+        "size": {
+          "w": 1446,
+          "h": 1581
+        }
+      }
+    },
+    "mane/hair-1-top.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-1-top@trim-full.png",
+        "offset": {
+          "x": 698,
+          "y": 481
+        },
+        "size": {
+          "w": 292,
+          "h": 226
+        }
+      }
+    },
+    "mane/hair-beta-back.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-beta-back@trim-full.png",
+        "offset": {
+          "x": 701,
+          "y": 1483
+        },
+        "size": {
+          "w": 193,
+          "h": 250
+        }
+      }
+    },
+    "mane/hair-beta-side.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-beta-side@trim-full.png",
+        "offset": {
+          "x": 334,
+          "y": 276
+        },
+        "size": {
+          "w": 1454,
+          "h": 1374
+        }
+      }
+    },
+    "mane/hair-beta-top.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-beta-top@trim-full.png",
+        "offset": {
+          "x": 697,
+          "y": 457
+        },
+        "size": {
+          "w": 574,
+          "h": 629
+        }
+      }
+    },
+    "mane/hair-spiky-back.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-spiky-back@trim-full.png",
+        "offset": {
+          "x": 1306,
+          "y": 538
+        },
+        "size": {
+          "w": 531,
+          "h": 1051
+        }
+      }
+    },
+    "mane/hair-spiky-side.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-spiky-side@trim-full.png",
+        "offset": {
+          "x": 270,
+          "y": 58
+        },
+        "size": {
+          "w": 1276,
+          "h": 1245
+        }
+      }
+    },
+    "mane/hair-spiky-top.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-spiky-top@trim-full.png",
+        "offset": {
+          "x": 588,
+          "y": 445
+        },
+        "size": {
+          "w": 418,
+          "h": 418
+        }
+      }
+    },
+    "mane/hair-wavy-back.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-wavy-back@trim-full.png",
+        "offset": {
+          "x": 229,
+          "y": 630
+        },
+        "size": {
+          "w": 1604,
+          "h": 1274
+        }
+      }
+    },
+    "mane/hair-wavy-side.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-wavy-side@trim-full.png",
+        "offset": {
+          "x": 146,
+          "y": 209
+        },
+        "size": {
+          "w": 1245,
+          "h": 1126
+        }
+      }
+    },
+    "mane/hair-wavy-top.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-wavy-top@trim-full.png",
+        "offset": {
+          "x": 311,
+          "y": 425
+        },
+        "size": {
+          "w": 823,
+          "h": 316
+        }
+      }
+    },
+    "mane/hair-cowlick-back.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-cowlick-back@trim-full.png",
+        "offset": {
+          "x": 279,
+          "y": 682
+        },
+        "size": {
+          "w": 293,
+          "h": 311
+        }
+      }
+    },
+    "mane/hair-cowlick-side.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-cowlick-side@trim-full.png",
+        "offset": {
+          "x": 214,
+          "y": 141
+        },
+        "size": {
+          "w": 1550,
+          "h": 1490
+        }
+      }
+    },
+    "mane/hair-cowlick-top.png": {
+      "trim-full": {
+        "url": "generated/mane/hair-cowlick-top@trim-full.png",
+        "offset": {
+          "x": 531,
+          "y": 440
+        },
+        "size": {
+          "w": 331,
+          "h": 259
+        }
+      }
+    },
+    "flag-back.png": {
+      "trim-full": {
+        "url": "generated/flag-back@trim-full.png",
+        "offset": {
+          "x": 82,
+          "y": 1350
+        },
+        "size": {
+          "w": 440,
+          "h": 466
+        }
+      }
+    },
+    "flag.png": {
+      "trim-full": {
+        "url": "generated/flag@trim-full.png",
+        "offset": {
+          "x": 87,
+          "y": 1378
+        },
+        "size": {
+          "w": 338,
+          "h": 433
+        }
+      }
+    },
+    "flag-front.png": {
+      "trim-full": {
+        "url": "generated/flag-front@trim-full.png",
+        "offset": {
+          "x": 646,
+          "y": 1426
+        },
+        "size": {
+          "w": 154,
+          "h": 51
+        }
+      }
+    },
+    "flag-half.png": {
+      "trim-full": {
+        "url": "generated/flag-half@trim-full.png",
+        "offset": {
+          "x": 192,
+          "y": 1398
+        },
+        "size": {
+          "w": 233,
+          "h": 413
+        }
+      }
+    },
+    "flag-twothird.png": {
+      "trim-full": {
+        "url": "generated/flag-twothird@trim-full.png",
+        "offset": {
+          "x": 151,
+          "y": 1392
+        },
+        "size": {
+          "w": 274,
+          "h": 419
+        }
+      }
+    },
+    "flag-third.png": {
+      "trim-full": {
+        "url": "generated/flag-third@trim-full.png",
+        "offset": {
+          "x": 225,
+          "y": 1405
+        },
+        "size": {
+          "w": 200,
+          "h": 406
+        }
+      }
+    },
+    "flag-verthalf.png": {
+      "trim-full": {
+        "url": "generated/flag-verthalf@trim-full.png",
+        "offset": {
+          "x": 147,
+          "y": 1378
+        },
+        "size": {
+          "w": 278,
+          "h": 227
+        }
+      }
+    }
+  }
+}
