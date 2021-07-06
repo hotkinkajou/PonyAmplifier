@@ -99,7 +99,7 @@
 						},
 						{
 							"url":"bowtie.png",
-							"layer":"clothes-front"
+							"layer":"clothes"
 						},
 					]
                 },
@@ -251,6 +251,30 @@
                         },
                     ]
                 },
+				"bombshell": {
+                    "displayName": "Flowing",
+                    "type": "composite",
+                    "components": [
+                        {
+                            "url": "mane/bombshell-back.png",
+                            "layer": "mane-back",
+                        },
+						{
+                            "url": "mane/bombshell-back-highlight.png",
+                            "layer": "mane-back",
+							"color": "mane2"
+                        },
+						{
+                            "url": "mane/bombshell-front.png",
+                            "layer": "mane-side"
+                        },
+						{
+                            "url": "mane/bombshell-front-highlight.png",
+                            "layer": "mane-side",
+							"color": "mane2"
+                        },
+                    ]
+                },
             }
         },
 		"horn":
@@ -325,6 +349,17 @@
                     "components": 
 					[
 						{ "url":"glass/olive.png"},
+						{ "url":"glass/wineglass-liquid.png", "color": "drink1" },
+						{ "url":"glass/wineglass-glass.png"},
+						{ "url":"glass/wineglass-shine.png"},
+					]
+                },
+				"martini_sparkler": {
+                    "displayName": "Martini w/sparkler",
+                    "type": "composite",
+                    "components": 
+					[
+						{ "url":"glass/sparkler.png"},
 						{ "url":"glass/wineglass-liquid.png", "color": "drink1" },
 						{ "url":"glass/wineglass-glass.png"},
 						{ "url":"glass/wineglass-shine.png"},
