@@ -3,6 +3,10 @@
         "url": "assets/hkj-shadowbox",
         "displayName": "Heckler's shadowbox pony set"
     },
+	    "hkj-lyrinator": {
+        "url": "assets/hkj-lyrinator",
+        "displayName": "Heckler's LYRINATOR NFT set"
+    },
     "patachu-libre-flag": {
         "url": "assets/patachu-libre-flag",
         "displayName": "Patachu's libre flag-bearer set"

@@ -1,0 +1,161 @@
+{
+    meta:
+    {
+        license: "[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).\n\
+        Art and adaptation by HotKinkajou. Includes designs from MLP:FiM by Hasbro.",
+    },
+	render:
+    {
+        canvasWidth: 1000,
+        canvasHeight: 1000
+    },
+    "colors": {
+
+    },
+    "layers": {
+        "background": {},
+        "accessory-back": {},
+        "mane-back": {},
+        "body": {},
+        "head": {},
+        "accessory-top": {}
+    },
+    "assets": {
+        "background": {
+            "displayName": "Background",
+            "layer": "background",
+            "color": "none",
+            "items": {
+                "backalley1": {
+                    "displayName": "Back alley",
+                    "url": "background/alley.png"
+                },
+                "hills1": {
+                    "displayName": "Rolling hills",
+                    "url": "background/hills.png"
+                },
+                "castle1": {
+                    "displayName": "Castle grounds",
+                    "url": "background/castle.png"
+                },
+                "none": {
+                    "displayName": "Transparent background",
+                    "type": "composite",
+                    "components": []
+                },
+                "simple": {
+                    "displayName": "Simple color",
+                    "url": "background/simple.png"
+                }
+            }
+        },
+        "body": {
+            "displayName": "Pose",
+            "layer": "body",
+            "color": "none",
+            "items": {
+                "sit_shid": {
+                    "displayName": "Shiddy sit",
+                    "url": "body/sit_shid.png",
+                },
+                "sit_straight": {
+                    "displayName": "Normal pony sit",
+                    "url": "body/sit_straight.png",
+                }, 
+				"stand_coy": {
+                    "displayName": "Stand like a pretty pony",
+                    "url": "body/stand_coy.png",
+                },  
+				"stand_shid": {
+                    "displayName": "Stand like a shid",
+                    "url": "body/stand_shid.png",
+                }, 
+				"stand_straight": {
+                    "displayName": "Stand like a normal pony",
+                    "url": "body/stand_straight.png",
+                },
+              	"stand_turn": {
+                    "displayName": "Stand sideways",
+                    "url": "body/stand_turn.png",
+                }
+            }
+        },
+		"head": {
+            "displayName": "Face",
+            "layer": "head",
+            "color": "none",
+            "items": {
+                "ew": {
+                    "displayName": "Ew gay",
+                    "url": "head/ew.png",
+                },
+                "glad": {
+                    "displayName": "Human spotted",
+                    "url": "head/glad.png",
+                }, 
+				"happy": {
+                    "displayName": "Happy",
+                    "url": "head/happy.png",
+                }, 
+				"meh": {
+                    "displayName": "Meh",
+                    "url": "head/meh.png",
+                }, 
+				"o": {
+                    "displayName": "O",
+                    "url": "head/o.png",
+                },
+                "sad": {
+                    "displayName": "No oats",
+                    "url": "head/sad.png",
+                },
+                "shid": {
+                    "displayName": "Caught stealing oats",
+                    "url": "head/shid.png",
+                }
+            }
+        },
+        "accessories": {
+            "displayName": "Accessory",
+            "layer": "accessory-top",
+            "color": "none",
+            "items": {
+                "none": {
+                    "displayName": "None",
+                    "type": "composite",
+                    "components": []
+                },
+                "knife": {
+                    "displayName": "Long sharp knife",
+                    "type": "composite",
+                    "components": [
+						{ "url": "acc/horn_magic.png" },
+						{ "url": "acc/knife.png" }
+					]
+                },
+                "condom": {
+                    "displayName": "Condom",
+                    "type": "composite",
+                    "components": [
+						{ "url": "acc/horn_magic.png" },
+						{ "url": "acc/condom.png" }
+					]
+                },
+                "oats": {
+                    "displayName": "Stolen oats",
+                    "type": "composite",
+                    "components": [
+						{ "url": "acc/horn_magic.png" },
+						{ "url": "acc/oats.png" }
+					]
+                }
+            }
+        },
+        snowpitys: {
+            displayName: "Snowpitys",
+            items: {
+                shiddy: { displayName: "Shiddy", components: []}
+            }
+        }
+    }
+}
