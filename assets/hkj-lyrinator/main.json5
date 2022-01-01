@@ -10,7 +10,9 @@
         canvasHeight: 1000
     },
     "colors": {
-
+		"bg1": {
+            "displayName": "Background"
+        },
     },
     "layers": {
         "background": {},
@@ -45,7 +47,8 @@
                 },
                 "simple": {
                     "displayName": "Simple color",
-                    "url": "background/simple.png"
+                    "url": "background/simple.png",
+					"color": "bg1"
                 }
             }
         },
@@ -77,6 +80,18 @@
               	"stand_turn": {
                     "displayName": "Stand sideways",
                     "url": "body/stand_turn.png",
+                },
+              	"prancing": {
+                    "displayName": "Prance",
+                    "url": "body/prancing.png",
+                },
+              	"running": {
+                    "displayName": "Run",
+                    "url": "body/running.png",
+                },
+              	"sideways2": {
+                    "displayName": "Stand sideways but differently",
+                    "url": "body/sideways2.png",
                 }
             }
         },
@@ -112,6 +127,10 @@
                 "shid": {
                     "displayName": "Caught stealing oats",
                     "url": "head/shid.png",
+                },
+				"eyesclosed": {
+                    "displayName": "Thinkgen of oats",
+                    "url": "head/eyesclosed.png",
                 }
             }
         },
@@ -139,6 +158,15 @@
                     "components": [
 						{ "url": "acc/horn_magic.png" },
 						{ "url": "acc/condom.png" }
+					]
+                },
+				"condom_needle": {
+                    "displayName": "Condom (surprise)",
+                    "type": "composite",
+                    "components": [
+						{ "url": "acc/horn_magic.png" },
+						{ "url": "acc/condom.png" },
+						{ "url": "acc/condom_needle.png" }
 					]
                 },
                 "oats": {
@@ -187,6 +215,30 @@
                     "components": [
 						{ "url": "acc/horn_magic.png" },
 						{ "url": "acc/machand.png" }
+					]
+                },
+				"draghand": {
+                    "displayName": "Human hand (with human (resting))",
+                    "type": "composite",
+                    "components": [
+						{ "url": "acc/horn_magic.png" },
+						{ "url": "acc/draghand.png" }
+					]
+                },
+				"crowbar": {
+                    "displayName": "Valuables extractor",
+                    "type": "composite",
+                    "components": [
+						{ "url": "acc/horn_magic.png" },
+						{ "url": "acc/crowbar.png" }
+					]
+                },
+				"leash": {
+                    "displayName": "Human collector",
+                    "type": "composite",
+                    "components": [
+						{ "url": "acc/horn_magic.png" },
+						{ "url": "acc/leash.png" }
 					]
                 }
             }
