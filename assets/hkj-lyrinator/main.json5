@@ -148,6 +148,46 @@
 						{ "url": "acc/horn_magic.png" },
 						{ "url": "acc/oats.png" }
 					]
+                },
+				"jailfree": {
+                    "displayName": "Get Out Of Jail Free Card",
+                    "type": "composite",
+                    "components": [
+						{ "url": "acc/horn_magic.png" },
+						{ "url": "acc/jailfree.png" }
+					]
+                },
+				"coathanger": {
+                    "displayName": "Improvised Predicament Escape Device",
+                    "type": "composite",
+                    "components": [
+						{ "url": "acc/horn_magic.png" },
+						{ "url": "acc/coathanger.png" }
+					]
+                },
+				"cucumber": {
+                    "displayName": "Soothing vegetable",
+                    "type": "composite",
+                    "components": [
+						{ "url": "acc/horn_magic.png" },
+						{ "url": "acc/cucumber.png" }
+					]
+                },
+				"stickyhand": {
+                    "displayName": "Hand (imitation)",
+                    "type": "composite",
+                    "components": [
+						{ "url": "acc/horn_magic.png" },
+						{ "url": "acc/stickyhand.png" }
+					]
+                },
+				"machand": {
+                    "displayName": "Human hand (with human)",
+                    "type": "composite",
+                    "components": [
+						{ "url": "acc/horn_magic.png" },
+						{ "url": "acc/machand.png" }
+					]
                 }
             }
         },
